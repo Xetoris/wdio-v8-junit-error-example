@@ -19,7 +19,7 @@ This [reporter](https://www.npmjs.com/package/@wdio/junit-reporter) generates Ju
 test run.
 
 With v8, everything was switched to the ESM module system. It seems we get an ESM import error when running a WDIO v8
-project on Windows, when using Typescript.
+project on Windows, when using CJS (and possibly Typescript?).
 
 #### Error Text
 
